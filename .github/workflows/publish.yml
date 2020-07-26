@@ -29,3 +29,4 @@ jobs:
         external_repository: ravicini/ravicini.github.io
         publish_dir: ./public
         publish_branch: master
+        cname: ravicini.ch
