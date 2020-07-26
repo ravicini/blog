@@ -32,4 +32,4 @@ jobs:
         git add .
         git commit -m "published $(date)" -a
         git remote set-url origin https://ravicini:${{ secrets.TOKEN }}@github.com/ravicini/ravicini.github.io.git
-        git push
+        git push origin master
