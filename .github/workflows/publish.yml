@@ -25,16 +25,9 @@ jobs:
       run: hugo -t meme
     
     - name: publish
-      uses: peaceiris/actions-gh-pages@v3
+      uses: peaceiris/actions-gh-pages@v3t
       with:
         github_token: ${{ secrets.GITHUB_TOKEN }}
+        external_repository: ravicini/ravicini.github.io
         publish_dir: ./public
-    # - name: init name and add changes
-    #   run: |
-    #     cd public
-    #     git config --local user.email "marco@ravicini.ch"
-    #     git config --local user.name "Marco Ravicini"
-    #     git add .
-    #     git commit -m "published $(date)" -a
-    #     git remote set-url origin https://$USERNAME:${{ secrets.GITHUB_TOKEN }}@github.com/ravicini/ravicini.github.io.git
-    #     git push origin master
+        publish_branch: master
