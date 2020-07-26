@@ -19,14 +19,9 @@ jobs:
     steps:
     # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
     - uses: actions/checkout@v2
-
-    - name: update submodules
-      run: |
-        git config --file=.gitmodules themes/meme https://github.com/reuixiy/hugo-theme-meme.git
-        git config --file=.gitmodules public https://${{ secrets.CI_PAT }}:${{ secrets.CI_PAT }}@github.com/ravicini/ravicini.github.io.git
-        git submodule sync
-        git submodule update --init --recursive
-
+      with:
+        submodules: recursive
+        
     # Runs a single command using the runners shell
     - name: install hugo-extended
       run: sudo snap install hugo --channel=extended
