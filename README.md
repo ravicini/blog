@@ -1,6 +1,5 @@
 # Blog content uses hugo to build static site
 
-
 <https://gohugo.io>
 
 - needs hugo extended!
