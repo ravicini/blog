@@ -27,7 +27,7 @@ jobs:
     - name: publish
       uses: peaceiris/actions-gh-pages@v3
       with:
-        github_token: ${{ secrets.GITHUB_TOKEN }}
+        personal_token: ${{ secrets.TOKEN }}
         external_repository: ravicini/ravicini.github.io
         publish_dir: ./public
         publish_branch: master
