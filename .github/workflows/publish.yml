@@ -31,5 +31,5 @@ jobs:
         git config --local user.name "Marco Ravicini"
         git add .
         git commit -m "published $(date)" -a
-        git remote set-url origin https://ravicini:${{ secrets.TOKEN }}@github.com/ravicini/ravicini.github.io.git
+        git remote set-url origin https://$USERNAME:${{ secrets.GITHUB_TOKEN }}@github.com/ravicini/ravicini.github.io.git
         git push origin master
