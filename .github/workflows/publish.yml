@@ -31,10 +31,5 @@ jobs:
         git config --local user.name "Marco Ravicini"
         git add .
         git commit -m "published $(date)" -a
-    
-    - name: publish
-      uses: ad-m/github-push-action@master
-      with:
-        github_token: ${{ secrets.TOKEN }}
-        directory: 'public'
-        repository: "ravicini/ravicini.github.io"
+        git remote set-url origin https://ravicini:${{ secrets.TOKEN }}@github.com/ravicini/ravicini.github.io.git
+        git push
