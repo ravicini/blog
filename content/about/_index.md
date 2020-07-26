@@ -8,8 +8,8 @@ My name is Marco Ravicini. I'm a software engineer interested in software craft,
 
 ## Public Speaking
 
-todo
+will follow
 
 ## Publications
 
-todo
+will follow

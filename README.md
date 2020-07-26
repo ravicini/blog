@@ -9,6 +9,8 @@
 
 <https://github.com/reuixiy/hugo-theme-meme/>
 
-## Planned hosting:
+## Hosting
 
-<https://gohugo.io/hosting-and-deployment/hosting-on-github/>
+uses github workflows to deploy to github.
+
+to publish uses https://github.com/peaceiris/actions-gh-pages#examples
