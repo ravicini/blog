@@ -24,12 +24,17 @@ jobs:
     - name: build site
       run: hugo -t meme
     
-    - name: init name and add changes
-      run: |
-        cd public
-        git config --local user.email "marco@ravicini.ch"
-        git config --local user.name "Marco Ravicini"
-        git add .
-        git commit -m "published $(date)" -a
-        git remote set-url origin https://$USERNAME:${{ secrets.GITHUB_TOKEN }}@github.com/ravicini/ravicini.github.io.git
-        git push origin master
+    - name: publish
+      uses: peaceiris/actions-gh-pages@v3
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+        publish_dir: ./public
+    # - name: init name and add changes
+    #   run: |
+    #     cd public
+    #     git config --local user.email "marco@ravicini.ch"
+    #     git config --local user.name "Marco Ravicini"
+    #     git add .
+    #     git commit -m "published $(date)" -a
+    #     git remote set-url origin https://$USERNAME:${{ secrets.GITHUB_TOKEN }}@github.com/ravicini/ravicini.github.io.git
+    #     git push origin master
