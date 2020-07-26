@@ -29,6 +29,7 @@ jobs:
         cd public
         git config --local user.email "marco@ravicini.ch"
         git config --local user.name "Marco Ravicini"
+        git add .
         git commit -m "published $(date)" -a
     
     - name: publish
