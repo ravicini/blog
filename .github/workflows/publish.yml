@@ -37,4 +37,4 @@ jobs:
       with:
         github_token: ${{ secrets.TOKEN }}
         directory: 'public'
-        repository: 'https://github.com/ravicini/ravicini.github.io'
+        repository: "ravicini/ravicini.github.io"
