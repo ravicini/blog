@@ -96,7 +96,7 @@ uglyURLs = false
     # Name
     name = "marco"
     # Email
-    email = "marco@ravicini.ch"
+    email = ""
     # Motto or introduction
     motto = "simplify"
     # Avatar
@@ -1216,7 +1216,7 @@ uglyURLs = false
     iconAnimation = true
 
     # Display links to Hugo and MemE?
-    displayPoweredBy = true
+    displayPoweredBy = false
 
     displaySiteCopyright = true
 
