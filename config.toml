@@ -22,7 +22,7 @@ defaultContentLanguageInSubdir = false
 pluralizeListTitles = false
 
 # The length of text in words to show in summary
-summaryLength = 42
+summaryLength = 30
 
 # Enable Emoji emoticons support?
 enableEmoji = true
@@ -246,7 +246,7 @@ uglyURLs = false
     displayHeaderInHome = true
     # Note: invalid for header layout flex
 
-    headerBackground = "linear-gradient(90deg, #f795331a 0, #f370551a 15%, #ef4e7b1a 30%, #a166ab1a 44%, #5073b81a 58%, #1098ad1a 72%, #07b39b1a 86%, #6dba821a 100%)"
+    headerBackground = "linear-gradient(90deg, #0591D03a 0, #68CBF23a 25%, #BDEBFA3a 50%, #FCC7373a 75%, #E17D0E3a 100%)"
     # Note: https://developer.mozilla.org/en-US/docs/Web/CSS/background
 
     headerLayout = "flex"

@@ -2,12 +2,14 @@
 
 <https://gohugo.io>
 
-- needs hugo extended!
+- needs hugo extended!g
 - run `hugo server` to preview blog
 
 ## Theme
 
 <https://github.com/reuixiy/hugo-theme-meme/>
+
+Update Theme: `git submodule update --rebase --remote .\themes\meme\`
 
 ## Hosting
 

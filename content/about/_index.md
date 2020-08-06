@@ -13,3 +13,9 @@ will follow
 ## Publications
 
 will follow
+
+## Notes about header colors
+
+The colors are based on a kingfisher. The composition uses the following base colors.
+
+`#0591D0 #68CBF2 #BDEBFA #FCC737 #E17D0E`

@@ -1,13 +1,12 @@
 ---
 title: "What is this about?"
 date: 2020-07-26T12:38:36+02:00
-tag: 'test'
+tags: ["Test"]
+categories: ["Test"]
 draft: false
 ---
 
-This is my personal blog, mainly for documentation and learning purposes for myself. The sharing is a neat side effect for me.
-
-As this is my first post I'll try some of the markdown, hugo and theme features here.
+This is my personal blog, mainly for documentation and learning purposes for myself. The sharing is a neat side effect for me. As this is my first post I’ll try some of the markdown, hugo and theme features here.
 
 ## Headers
 
@@ -120,7 +119,7 @@ Some text to show that the reference links can follow later.
 
 ## Images
 
-![Test](aperture.jpg)
+![Avatar](aperture.jpg)
 
 ## Emphasis
 
